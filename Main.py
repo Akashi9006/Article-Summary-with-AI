@@ -17,6 +17,6 @@ article.parse()
 article.nlp()
 
 print(f'Title: {article.title}')
-print(f'Author: {article.author}')
+print(f'Author: {article.authors}')
 print(f'Publish date: {article.publish_date}')
 print(f'Summary: {article.summary}')
