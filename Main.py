@@ -1,16 +1,17 @@
 import tkinter as tk
 import nltk
-import textblob as TextBlob
-import newspaper as Article
+from textblob import TextBlob
+from newspaper import Article
 
 # Download necessary NLTK data
+
+nltk.download('punkt')
 
 url = 'https://www.bbc.co.uk/news/live/c5yep0l5545t'
 
 article = Article(url)
 
 article.download()
-
 article.parse()
 
 article.nlp()
