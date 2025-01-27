@@ -1,7 +1,7 @@
 import tkinter as tk
 import nltk
 import textblob as TextBlob
-import newsport as Article
+import newspaper as Article
 
 # Download necessary NLTK data
 
